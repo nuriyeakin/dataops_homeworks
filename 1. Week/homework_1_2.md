@@ -148,11 +148,11 @@ show tables;
 
 ### 9. Send with put
 ```
-[train@trainvm ~]$ hdfs dfs -put ~/datasets/employee.txt /user/train/hdfs_odev
+[train@trainvm ~]$ hdfs dfs -put ~/datasets/employe.csv /user/train/hdfs_odev
 ```
 
 ```
-0: jdbc:hive2://127.0.0.1:10000> load data inpath '/user/train/hdfs_odev/employee.txt' into table employee;
+0: jdbc:hive2://127.0.0.1:10000> load data inpath '/user/train/hdfs_odev/employe.csv' into table employee;
 ```
 
 ### 10. Write a query that returns the employees whose Python skill is greater than 70.
